@@ -1,5 +1,4 @@
-import React from 'react'
+import { render } from 'react-dom'
+import Header from './Header'
 
-function App() {
-    return <h1>Hello world</h1>
-}
+render(<Header />, document.getElementById('root'))
